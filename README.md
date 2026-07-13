@@ -35,7 +35,7 @@ Developed as the digital backbone of a complete studio system.
 
 <img src="images/Back.jpg" width="900">
 
-*Figure 3 – Digital Audio Patchbay Backview*
+*Figure 3 – Digital Audio Patchbay Rearview*
 </p>
 
 # About this Repository
