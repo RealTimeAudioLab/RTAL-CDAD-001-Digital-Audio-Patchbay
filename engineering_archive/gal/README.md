@@ -136,8 +136,8 @@ The two historical programming devices were used:
 | EPROM programming | **Junior Prommer** for Atari ST |
 | GAL programming | **MAXON MGP / MPG 16/20** for Atari ST |
 
-![Component side of RTAL ISA AnalogLab 12](RTAL_GAL_EPROM_Programmer_1.jpg)
-![Component side of RTAL ISA AnalogLab 12](RTAL_GAL_EPROM_Programmer_2.jpg)
+![RTAL_GAL_EPROM_Programmer_1](images/RTAL_GAL_EPROM_Programmer_1.JPG)
+![RTAL_GAL_EPROM_Programmer_2](images/RTAL_GAL_EPROM_Programmer_2.JPG)
 
 
 The historical name appears in contemporary sources in both forms:
