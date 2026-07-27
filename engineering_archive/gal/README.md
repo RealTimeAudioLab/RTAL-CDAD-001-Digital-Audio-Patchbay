@@ -138,6 +138,7 @@ The two historical programming devices were used:
 
 ![RTAL_GAL_EPROM_Programmer_1](images/RTAL_GAL_EPROM_Programmer_1.JPG)
 ![RTAL_GAL_EPROM_Programmer_2](images/RTAL_GAL_EPROM_Programmer_2.JPG)
+![RTAL_GAL_EPROM_Programmer_2](images/RTAL_GAL_Software.png)
 
 
 The historical name appears in contemporary sources in both forms:
@@ -200,89 +201,6 @@ The compiler could process:
 - and mixed descriptions.
 
 A Quine–McCluskey-based optimizer was also included.
-
----
-
-## Suggested archive structure
-
-```text
-GAL/
-├── README.md
-│
-├── source/
-│   ├── original/
-│   │   ├── <original GAL source files>
-│   │   └── <original equation files>
-│   │
-│   └── documented/
-│       ├── <commented or transcribed sources>
-│       └── <pin-assignment documentation>
-│
-├── jedec/
-│   ├── <original .JED files>
-│   └── checksums.txt
-│
-├── docs/
-│   ├── GAL_LOGIC_OVERVIEW.md
-│   ├── PIN_ASSIGNMENTS.md
-│   ├── PROGRAMMING_WORKFLOW.md
-│   └── FILE_INVENTORY.md
-│
-├── images/
-│   ├── gal_programmer_external.jpg
-│   ├── gal_programmer_internal.jpg
-│   ├── gal_programmer_pcb.jpg
-│   ├── eprom_and_gal_programmers.jpg
-│   └── maxon_gal_software_v2.png
-│
-└── references/
-    ├── historical-notes.md
-    └── source-provenance.md
-```
-
-Original files should remain in `source/original/` and should not be edited. Any reformatted, commented, or reconstructed version should be stored separately in `source/documented/`.
-
----
-
-## Recommended image placement
-
-### GAL programmer — external view
-
-```markdown
-![MAXON MGP/MPG 16/20-compatible GAL programmer — external view](images/gal_programmer_external.jpg)
-```
-
-*External view of the dedicated GAL programmer used with the Atari Mega ST.*
-
----
-
-### Programmer interior
-
-```markdown
-![GAL and EPROM programmer hardware — internal view](images/gal_programmer_internal.jpg)
-```
-
-*Internal view of the historical programming equipment. The GAL programmer and the separate Junior Prommer EPROM programmer were both connected to the Atari ST printer port.*
-
----
-
-### GAL programmer PCB
-
-```markdown
-![GAL programmer PCB with CD4094 shift register](images/gal_programmer_pcb.jpg)
-```
-
-*GAL programmer circuitry. The CD4094 shift register is clearly visible and was used to generate multiple programming-control signals from the Atari ST printer-port interface.*
-
----
-
-### Software screenshot
-
-```markdown
-![MAXON GAL programmer software Version 2.0 on Atari ST](images/maxon_gal_software_v2.png)
-```
-
-*MAXON GAL programmer software Version 2.0 running under GEM. The dialog identifies GAL16V8/A and GAL20V8/A devices and determines the required number of programming cycles.*
 
 ---
 
