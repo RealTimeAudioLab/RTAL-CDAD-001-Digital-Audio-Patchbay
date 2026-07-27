@@ -127,14 +127,16 @@ The CD4094 allowed multiple programming and control signals to be generated thro
 
 The programmer was a separate unit from the EPROM programmer used in the same development environment.
 
-### Identified programming systems
+### Programming systems
 
-The two historical programming devices are currently identified as:
+The two historical programming devices were used:
 
 | Function | Programmer |
 |---|---|
 | EPROM programming | **Junior Prommer** for Atari ST |
 | GAL programming | **MAXON MGP / MPG 16/20** for Atari ST |
+
+
 
 The historical name appears in contemporary sources in both forms:
 
