@@ -1,0 +1,22 @@
+chip ok_da gal20v8
+
+  Cd_F1 Cc_F0 Cb_E2 Ca_E1 Co_E0 ERF   Ce_F2 DEE nc nc nc gnd
+  nc    nc    ERROR 32KHz 44KHz 48KHz DEEM  nc  nc nc nc vcc
+
+@ues ok_da
+
+equations
+
+ ERROR = ERF
+
+ 32KHz = Cc_F0 * Cd_F1 * /Ce_F2 * /ERF
+       + Cc_F0 * Cd_F1 *  Ce_F2 * /ERF
+
+ 44KHz = /Cc_F0 *  Cd_F1 * /Ce_F2 * /ERF
+       +  Cc_F0 * /Cd_F1 *  Ce_F2 * /ERF
+       + /Cc_F0 *  Cd_F1 *  Ce_F2 * /ERF
+
+ 48KHz = Cc_F0 * /Cd_F1 * /Ce_F2 * /ERF
+       + /Cc_F0 * /Cd_F1 * Ce_F2 * /ERF
+
+ DEEM  = DEE
